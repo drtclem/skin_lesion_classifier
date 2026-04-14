@@ -113,6 +113,25 @@ In cancer screening, recall matters more than precision. A missed melanoma is fa
 
 ## Project Structure
 
+```
+skin_lesion_classifier/
+├── data/
+│   ├── raw/                          
+│   ├── best_model.pth                
+│   ├── confusion_matrix.png          
+│   └── class_distribution.png       
+├── images/                           
+├── notebooks/
+│   └── exploration.ipynb             
+├── src/
+│   ├── dataset.py                    
+│   ├── model.py                      
+│   ├── train.py                      
+│   └── evaluate.py                   
+├── demo.py                           
+└── requirements.txt                  
+```
+
 ---
 
 ## Usage
